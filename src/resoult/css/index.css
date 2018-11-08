@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #eee;
+}
+
+i {
+  font-size: 20px;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.box .top {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 100%;
+}
+
+.box .top > i {
+  width: 60px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.box .top img {
+  width: 60px;
+}
+
+.box .top .input {
+  width: 100%;
+  height: 35px;
+  margin-top: 6px;
+  background: #fff;
+  flex: 1;
+  line-height: 35px;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.box .top .input i {
+  line-height: 35px;
+}
+
+.box .top .input input {
+  border: 0;
+}
+
+.box .center {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.box .foot {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.box .foot dl {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 25%;
+}
+
+.box .foot dl dt {
+  margin: 7px 0;
+}
+
+.box .foot dl dt i {
+  font-size: 20px;
+}
